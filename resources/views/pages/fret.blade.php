@@ -31,7 +31,7 @@
          <div class="w-md-80 w-lg-60">
            <div class="mb-4">
              <h2 class="display-4 font-size-48--md-down text-white">Fret Aérien</h2>
-             <p class="lead text-white">Obtenez les meilleurs prix et gagnez du temps pour envoyer vos marchandises depuis Abidjan.</p>
+             <p class="lead text-white">Prise en compte des exigences et des contraintes parfaitement légitimes de ses clients</p>
            </div>
            <a class="btn  btn-wide" href="devis" style="background-color:#00a0e1;">Demande de devis</a>
          </div>

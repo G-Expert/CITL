@@ -22,7 +22,7 @@
               <div class="w-50 w-md-40">
                 <div class="mb-5">
                   <h1 class="display-4">Multiservices</h1>
-                  <p class="lead">Fret maritime & aerien, Transport,Logistique,Manutention & Transit Traçabilité en temps réel de vos commandes</p>
+                  <p class="lead">Transite, Fret maritime & aérien, Transport,Logistique,Manutention,Traçabilité en temps réel de vos commandes</p>
                 </div>
               </div>
               <div class="w-50">
@@ -56,7 +56,7 @@
               </div>
               <div class="w-50">
                 {{-- <a class="btn btn-primary btn-wide mb-2 mb-md-0 mr-md-2" href="https://themes.getbootstrap.com/product/space-multipurpose-responsive-template/">Get Started</a> --}}
-                <a class="btn  btn-wide text-light" href="#" style="background-color:#00a0e1;">Demande de devis</a>
+                <a class="btn  btn-wide text-light" href="devis" style="background-color:#00a0e1;">Demande de devis</a>
               </div>
             </div>
           </div>
@@ -82,7 +82,14 @@
               </div>
               <div class="w-50">
                 {{-- <a class="btn btn-primary btn-wide mb-2 mb-md-0 mr-md-2" href="https://themes.getbootstrap.com/product/space-multipurpose-responsive-template/">Get Started</a> --}}
-                <a class="btn btn-wide text-light" href="#" style="background-color:#00a0e1;">Nos Services</a>
+                {{-- <a class="btn btn-wide text-light" href="#signupModal" style="background-color:#00a0e1;">Tracking</a> --}}
+                <a class="btn btn-sm" href="#signupModal" role="button"
+                   style="background-color:#00a0e1;"
+                   data-modal-target="#signupModal"
+                   data-overlay-color="#00a0e1">
+                  {{-- <i class="fa fa-user-circle mr-1"></i> --}}
+                  Tracking
+                </a>
               </div>
             </div>
           </div>
@@ -232,77 +239,9 @@
    <!-- End About Section -->
 
 
-   <!-- Clients Section -->
-    <div class="container space-2 space-3-bottom--lg">
-      <!-- Title -->
-      <div class="w-md-80 w-lg-60 text-center mx-md-auto mb-9">
-        <h3 class="h4">Nos clients satisfaits</h3>
-      </div>
-      <!-- End Title -->
-
-      <!-- Slick Carousel -->
-      <div class="js-slick-carousel u-slick"
-           data-autoplay="true"
-           data-speed="5000"
-           data-infinite="true"
-           data-slides-show="6"
-           data-responsive='[{
-             "breakpoint": 1200,
-             "settings": {
-               "slidesToShow": 4
-             }
-           }, {
-             "breakpoint": 992,
-             "settings": {
-               "slidesToShow": 4
-             }
-           }, {
-             "breakpoint": 768,
-             "settings": {
-               "slidesToShow": 3
-             }
-           }, {
-             "breakpoint": 576,
-             "settings": {
-               "slidesToShow": 3
-             }
-           }, {
-             "breakpoint": 480,
-             "settings": {
-               "slidesToShow": 2
-             }
-           }]'>
-        <div class="js-slide">
-          <img class="u-clients" src="../../assets/img/clients/amazon.png" alt="Image Description">
-        </div>
-        <div class="js-slide">
-          <img class="u-clients" src="../../assets/img/clients/google.png" alt="Image Description">
-        </div>
-        <div class="js-slide">
-          <img class="u-clients" src="../../assets/img/clients/paypal.png" alt="Image Description">
-        </div>
-        <div class="js-slide">
-          <img class="u-clients" src="../../assets/img/clients/slack.png" alt="Image Description">
-        </div>
-        <div class="js-slide">
-          <img class="u-clients" src="../../assets/img/clients/samsung.png" alt="Image Description">
-        </div>
-        <div class="js-slide">
-          <img class="u-clients" src="../../assets/img/clients/airbnb.png" alt="Image Description">
-        </div>
-        <div class="js-slide">
-          <img class="u-clients" src="../../assets/img/clients/lenovo.png" alt="Image Description">
-        </div>
-        <div class="js-slide">
-          <img class="u-clients" src="../../assets/img/clients/spotify.png" alt="Image Description">
-        </div>
-      </div>
-      <!-- End Slick Carousel -->
-    </div>
-   <!-- End Clients Section -->
 
    <!-- News Section -->
-    <div class="bg-gray-100">
+    <div class="bg-white-100">
       <div class="container space-2 space-3--lg">
         <!-- Title -->
         <div class="w-md-80 w-lg-60 text-center mx-md-auto mb-9">
@@ -319,13 +258,14 @@
               <div class="col-7 border border-right-0 rounded-left">
                 <div class="p-5">
                   <h2 class="h5 mb-3">
-                    <a href="../blog/single-article-classic.html">Directeur Général</a>
+                    <a href="#">Directeur Général</a>
                   </h2>
-                  <p class="mb-0">M. Coulibaly</p>
-                  <span>coulibaly@citl.com</span>
+                  <p class="mb-0">M. JULIEN</p>
+                  <span>julien@citl.ci</span><br>
+                  <span>225 07 57 57 21 94</span>
                 </div>
               </div>
-              <div class="col-5 card-img-right border border-left-0 bg-img-hero" data-bg-img-src="../../assets/img/500x550/img1.jpg"></div>
+              <div class="col-5 card-img-right border border-left-0 bg-img-hero" data-bg-img-src="../../assets/img/500x550/img2.jpg"></div>
             </div>
             <!-- End News Blog Card -->
           </article>
@@ -336,10 +276,10 @@
               <div class="col-7 border border-right-0 rounded-left">
                 <div class="p-5">
                   <h2 class="h5 mb-3">
-                    <a href="../blog/single-article-classic.html">Directrice Commercial</a>
+                    <a href="#">Directrice Commercial et Marketing</a>
                   </h2>
-                  <p class="mb-0">M. Konate</p>
-                  <span>konate@citl.com</span>
+                  <p class="mb-0">Mme Koffi</p>
+                  <span>koffi@citl.ci</span>
                 </div>
               </div>
               <div class="col-5 card-img-right border border-left-0 bg-img-hero" data-bg-img-src="../../assets/img/500x550/img2.jpg"></div>
@@ -348,47 +288,13 @@
           </article>
         </div>
 
-        <div class="card-deck d-block d-lg-flex">
-          <article class="card border-0 mb-5">
-            <div class="card-body row align-items-stretch no-gutters p-0">
-              <!-- News Blog Card -->
-              <div class="col-7 border border-right-0 rounded-left">
-                <div class="p-5">
-                  <h2 class="h5 mb-3">
-                    <a href="../blog/single-article-classic.html">Directeur Technique</a>
-                  </h2>
-                  <p class="mb-0">M. Kouassi</p>
-                  <span>kouassi@citl.com</span>
-                </div>
-              </div>
-              <div class="col-5 card-img-right border border-left-0 bg-img-hero" data-bg-img-src="../../assets/img/500x550/img3.jpg"></div>
-            </div>
-            <!-- End News Blog Card -->
-          </article>
 
-          <article class="card border-0 mb-5">
-            <div class="card-body row align-items-stretch no-gutters p-0">
-              <!-- News Blog Card -->
-              <div class="col-7 border border-right-0 rounded-left">
-                <div class="p-5">
-                  <h2 class="h5 mb-3">
-                    <a href="../blog/single-article-classic.html">Chargé clientèle</a>
-                  </h2>
-                  <p class="mb-0">M. Kouame</p>
-                  <span>kouame@citl.com</span>
-                </div>
-              </div>
-              <div class="col-5 card-img-right border border-left-0 bg-img-hero" data-bg-img-src="../../assets/img/500x550/img4.jpg"></div>
-            </div>
-            <!-- End News Blog Card -->
-          </article>
-        </div>
       </div>
     </div>
    <!-- End News Section -->
 
    <!-- Contact Us Form Section -->
-    <div class="container space-2 space-3--lg">
+    <div class="bg-gray-100 container space-2 space-3--lg">
       <!-- Title -->
       <div class="w-md-80 w-lg-60 text-center mx-md-auto mb-9">
         <span class="u-label u-label--sm u-label--purple mb-3">Nous contacter</span>
@@ -402,7 +308,7 @@
       </div>
       <!-- End Title -->
 
-      <div class="w-lg-80 mx-auto">
+      {{-- <div class="w-lg-80 mx-auto">
         <form class="js-validate">
           <div class="row">
             <!-- Input -->
@@ -485,7 +391,7 @@
             <button type="submit" class="btn btn-primary btn-wide mb-4" style="background-color:#00a0e1;"><i class="bi bi-cursor"></i> Envoyer</button>
           </div>
         </form>
-      </div>
+      </div> --}}
     </div>
     <!-- End Contact Us Form Section -->
 

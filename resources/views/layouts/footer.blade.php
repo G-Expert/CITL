@@ -85,7 +85,7 @@
 
   <!-- Content -->
   <div class="p-5 bg-white rounded">
-    <form class="js-validate">
+    <form class="js-validate" action="login" method="get">
       <!-- Signin -->
       <div id="signin" data-target-group="idForm">
         <!-- Title -->
@@ -99,14 +99,12 @@
         <div class="js-form-message mb-3">
           <div class="js-focus-state input-group form">
             <div class="input-group-prepend form__prepend">
-              {{-- <span class="input-group-text form__text">
-                <i class="fa fa-user form__text-inner"></i>
-              </span> --}}
+
             </div>
-            <input type="text" class="form-control form__input" name="conteneur" required
-                   placeholder="Numéro du conteneur"
-                   aria-label="Numéro du conteneur"
-                   data-msg="Svp, entrez votre Numéro du conteneur"
+            <input type="text" class="form-control form__input" name="tel" required
+                   placeholder="Numéro de téléphone"
+                   aria-label="Numéro de téléphone"
+                   data-msg="Svp, entrez votre Numéro de téléphone"
                    data-error-class="u-has-error"
                    data-success-class="u-has-success">
           </div>
@@ -117,222 +115,25 @@
         <div class="js-form-message mb-3">
           <div class="js-focus-state input-group form">
 
-            <input type="text" class="form-control form__input" name="conteneur" required
-                   placeholder="Bon de livraison"
-                   aria-label="Bon de livraison"
-                   data-msg="Svp, entrez votre Bon de livraison"
+            <input type="text" class="form-control form__input" name="pass"required
+                   placeholder="Mot de passe"
+                   aria-label="Votre mot de passe"
+                   data-msg="Svp, entrez votre mot de passe"
                    data-error-class="u-has-error"
                    data-success-class="u-has-success">
           </div>
         </div>
         <!-- End Input -->
 
-        <div class="row mb-3">
-          {{-- <div class="col-6">
-            <!-- Checkbox -->
-            <div class="custom-control custom-checkbox d-flex align-items-center text-muted">
-              <input type="checkbox" class="custom-control-input" id="rememberMeCheckbox">
-              <label class="custom-control-label" for="rememberMeCheckbox">
-                Remember Me
-              </label>
-            </div>
-            <!-- End Checkbox -->
-          </div> --}}
-
-          {{-- <div class="col-6 text-right">
-            <a class="js-animation-link float-right" href="javascript:;"
-               data-target="#forgotPassword"
-               data-link-group="idForm"
-               data-animation-in="fadeIn">Forgot Password?</a>
-          </div> --}}
-        </div>
 
         <div class="mb-3">
-          <button type="submit" class="btn btn-block btn-danger">Tracker</button>
+          <button type="submit" class="btn btn-block btn-danger">Se connecter</button>
         </div>
 
-        {{-- <div class="text-center mb-3">
-          <p class="text-muted">
-            Do not have an account?
-            <a class="js-animation-link" href="javascript:;"
-               data-target="#signup"
-               data-link-group="idForm"
-               data-animation-in="fadeIn">Signup
-            </a>
-          </p>
-        </div> --}}
-
-        <!-- Divider -->
-        {{-- <div class="text-center u-divider-wrapper my-3">
-          <span class="u-divider u-divider--xs u-divider--text">OR</span>
-        </div> --}}
-        <!-- End Divider -->
-
-        <!-- Signin Social Buttons -->
-        {{-- <div class="row mx-gutters-2 mb-4">
-          <div class="col-sm-6 mb-2 mb-sm-0">
-            <button type="button" class="btn btn-block btn-facebook text-nowrap">
-              <i class="fab fa-facebook-f mr-2"></i>
-              Signin with Facebook
-            </button>
-          </div>
-          <div class="col-sm-6">
-            <button type="button" class="btn btn-block btn-twitter">
-              <i class="fab fa-twitter mr-2"></i>
-              Signin with Twitter
-            </button>
-          </div>
-        </div> --}}
-        <!-- End Signin Social Buttons -->
       </div>
       <!-- End Signin -->
 
-      <!-- Signup -->
-      <div id="signup" style="display: none; opacity: 0;" data-target-group="idForm">
-        <!-- Title -->
-        <header class="text-center mb-5">
-          <h2 class="h4 mb-0">Please sign up</h2>
-          <p>Fill out the form to get started.</p>
-        </header>
-        <!-- End Title -->
 
-        <!-- Input -->
-        <div class="js-form-message mb-3">
-          <div class="js-focus-state input-group form">
-            <div class="input-group-prepend form__prepend">
-              <span class="input-group-text form__text">
-                <i class="fa fa-user form__text-inner"></i>
-              </span>
-            </div>
-            <input type="email" class="form-control form__input" name="email" required
-                   placeholder="Email"
-                   aria-label="Email"
-                   data-msg="Please enter a valid email address."
-                   data-error-class="u-has-error"
-                   data-success-class="u-has-success">
-          </div>
-        </div>
-        <!-- End Input -->
-
-        <!-- Input -->
-        <div class="js-form-message mb-3">
-          <div class="js-focus-state input-group form">
-            <div class="input-group-prepend form__prepend">
-              <span class="input-group-text form__text">
-                <i class="fa fa-lock form__text-inner"></i>
-              </span>
-            </div>
-            <input type="password" class="form-control form__input" name="password" id="password" required
-                   placeholder="Password"
-                   aria-label="Password"
-                   data-msg="Your password is invalid. Please try again."
-                   data-error-class="u-has-error"
-                   data-success-class="u-has-success">
-          </div>
-        </div>
-        <!-- End Input -->
-
-        <!-- Input -->
-        <div class="js-form-message mb-3">
-          <div class="js-focus-state input-group form">
-            <div class="input-group-prepend form__prepend">
-              <span class="input-group-text form__text">
-                <i class="fa fa-key form__text-inner"></i>
-              </span>
-            </div>
-            <input type="password" class="form-control form__input" name="confirmPassword" required
-                   placeholder="Confirm Password"
-                   aria-label="Confirm Password"
-                   data-msg="Password does not match the confirm password."
-                   data-error-class="u-has-error"
-                   data-success-class="u-has-success">
-          </div>
-        </div>
-        <!-- End Input -->
-
-        <div class="mb-3">
-          <button type="submit" class="btn btn-block btn-primary">Signup</button>
-        </div>
-
-        <div class="text-center mb-3">
-          <p class="text-muted">
-            Have an account?
-            <a class="js-animation-link" href="javascript:;"
-               data-target="#signin"
-               data-link-group="idForm"
-               data-animation-in="fadeIn">Signin
-            </a>
-          </p>
-        </div>
-
-        <!-- Divider -->
-        <div class="text-center u-divider-wrapper my-3">
-          <span class="u-divider u-divider--xs u-divider--text">OR</span>
-        </div>
-        <!-- End Divider -->
-
-        <!-- Signup Social Buttons -->
-        <div class="row mx-gutters-2 mb-4">
-          <div class="col-sm-6 mb-2 mb-sm-0">
-            <button type="button" class="btn btn-block btn-facebook text-nowrap">
-              <i class="fab fa-facebook-f mr-2"></i>
-              Signup with Facebook
-            </button>
-          </div>
-          <div class="col-sm-6">
-            <button type="button" class="btn btn-block btn-twitter">
-              <i class="fab fa-twitter mr-2"></i>
-              Signup with Twitter
-            </button>
-          </div>
-        </div>
-        <!-- End Signup Social Buttons -->
-      </div>
-      <!-- End Signup -->
-
-      <!-- Forgot Password -->
-      <div id="forgotPassword" style="display: none; opacity: 0;" data-target-group="idForm">
-        <!-- Title -->
-        <header class="text-center mb-5">
-          <h2 class="h4 mb-0">Recover account</h2>
-          <p>Enter your email address and an email with instructions will be sent to you.</p>
-        </header>
-        <!-- End Title -->
-
-        <!-- Input -->
-        <div class="js-form-message mb-3">
-          <div class="js-focus-state input-group form">
-            <div class="input-group-prepend form__prepend">
-              <span class="input-group-text form__text">
-                <i class="fa fa-user form__text-inner"></i>
-              </span>
-            </div>
-            <input type="email" class="form-control form__input" name="email" required
-                   placeholder="Email"
-                   aria-label="Email"
-                   data-msg="Please enter a valid email address."
-                   data-error-class="u-has-error"
-                   data-success-class="u-has-success">
-          </div>
-        </div>
-        <!-- End Input -->
-
-        <div class="mb-3">
-          <button type="submit" class="btn btn-block btn-primary">Recover Account</button>
-        </div>
-
-        <div class="text-center mb-3">
-          <p class="text-muted">
-            Have an account?
-            <a class="js-animation-link" href="javascript:;"
-               data-target="#signin"
-               data-link-group="idForm"
-               data-animation-in="fadeIn">Signin
-            </a>
-          </p>
-        </div>
-      </div>
-      <!-- End Forgot Password -->
     </form>
   </div>
   <!-- End Content -->
@@ -442,6 +243,54 @@
       $.HSCore.components.HSGoTo.init('.js-go-to');
     });
   </script>
+
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6106f848649e0a0a5ccefc2a/1fc1jjnk8';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<script type="text/javascript">
+
+  $('#homeMegaMenu').click(function(){
+     window.location="/";
+  });
+
+  $('.fret').click(function(){
+     window.location="fret";
+  });
+
+  $('.manut').click(function(){
+     window.location="mantrans";
+  });
+
+  $('.transport').click(function(){
+     window.location="transport";
+  });
+
+  $('.logis').click(function(){
+     window.location="logistique";
+  });
+
+  $('.Team').click(function(){
+     window.location="/about#Team";
+  });
+
+
+
+
+
+</script>
+
+
 </body>
 
 </html>

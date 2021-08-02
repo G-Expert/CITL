@@ -10,9 +10,9 @@
               <ul class="list-unstyled text-white mb-0">
                 {{-- <li class="d-block">In San Francisco</li>
                 <li class="d-block">At Space</li> --}}
-                <li class="d-block text-dark">
+                {{-- <li class="d-block text-dark">
                   Une structure logistique efficace, réactive et à l'écoute du client.
-                </li>
+                </li> --}}
               </ul>
             </div>
             <div class="col-sm-6 text-sm-right">
@@ -34,6 +34,12 @@
 
           <!-- Contacts List -->
           <ul class="list-unstyled">
+            <li class="media align-items-center pb-2">
+              <div class="media-body">
+                <h3 class="h6 mb-0"><i class="bi bi-geo-alt-fill"></i>Sur tous les continents</h3>
+              </div>
+            </li><li class="dropdown-divider"></li>
+
             <li class="media align-items-center pb-2">
 
               <div class="media-body">
@@ -90,7 +96,9 @@
               <h2 class="h3">CITL - Logistique</h2>
             </div>
 
-            <p>Vous rencontrez des difficultés dans votre logistique, CITL-Logistique est à votre disposition pour vous aider !  </p>
+            <p>
+              Une structure logistique efficace, réactive et à l'écoute du client
+            </p>
 
             <div class="mb-5"></div>
 

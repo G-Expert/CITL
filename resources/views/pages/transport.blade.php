@@ -34,8 +34,14 @@
 
           <!-- Contacts List -->
           <ul class="list-unstyled">
-            <li class="media align-items-center pb-2">
 
+            <li class="media align-items-center pb-2">
+              <div class="media-body">
+                <h3 class="h6 mb-0"><i class="bi bi-geo-alt-fill"></i>Sur tous les continents</h3>
+              </div>
+            </li><li class="dropdown-divider"></li>
+
+            <li class="media align-items-center pb-2">
               <div class="media-body">
                 <h3 class="h6 mb-0"><i class="bi bi-geo-alt-fill"></i> Côte d'ivoire</h3>
               </div>
