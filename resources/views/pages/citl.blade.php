@@ -22,7 +22,7 @@
               <div class="w-50 w-md-40">
                 <div class="mb-5">
                   <h1 class="display-4">Multiservices</h1>
-                  <p class="lead">Transite, Fret maritime & aérien, Transport,Logistique,Manutention,Traçabilité en temps réel de vos commandes</p>
+                  <p class="lead">Transit, Fret maritime & aérien, Transport,Logistique,Manutention,Traçabilité en temps réel de vos commandes</p>
                 </div>
               </div>
               <div class="w-50">
@@ -261,7 +261,7 @@
                     <a href="#">Directeur Général</a>
                   </h2>
                   <p class="mb-0">M. JULIEN</p>
-                  <span>julien@citl.ci</span><br>
+                  <span>citlogistics2000@gmail.com</span><br>
                   <span>225 07 57 57 21 94</span>
                 </div>
               </div>
@@ -278,11 +278,12 @@
                   <h2 class="h5 mb-3">
                     <a href="#">Directrice Commercial et Marketing</a>
                   </h2>
-                  <p class="mb-0">Mme Koffi</p>
-                  <span>koffi@citl.ci</span>
+                  <p class="mb-0">Alertee Souko épouse Assandi</p>
+                  <span>souko@citl.ci</span><br>
+                  <span>25 21 00 35 03</span>
                 </div>
               </div>
-              <div class="col-5 card-img-right border border-left-0 bg-img-hero" data-bg-img-src="../../assets/img/500x550/img2.jpg"></div>
+              <div class="col-5 card-img-right border border-left-0 bg-img-hero" data-bg-img-src="../../assets/img/500x550/img1.jpg"></div>
             </div>
             <!-- End News Blog Card -->
           </article>
@@ -301,8 +302,8 @@
         {{-- <h2 class="h3">Parlez-nous de vos besoins</h2> --}}
         <p>
             <i class="bi bi-envelope-open"></i> : info@citl.com<br>
-            <i class="bi bi-telephone"></i> :   225 01 02 20 52 11 <br>
-            <i class="bi bi-geo-alt-fill"></i>: Côte d'ivoire, Abidjan - Koumassi <br>
+            <i class="bi bi-geo-alt-fill"></i>: Côte d'ivoire, Abidjan - Koumassi Remblais <br>
+            <i class="bi bi-telephone"></i> :   225 07 07 57 21 94 - 225 01 43 05 18 98 - 25 21 00 35 03 <br>
         </p>
 
       </div>

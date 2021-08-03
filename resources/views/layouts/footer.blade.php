@@ -8,8 +8,8 @@
         <!-- List Group -->
         <div class="list-group list-group-flush list-group-transparent">
           <a class="list-group-item list-group-item-action" href="about-agency.html"><i class="bi bi-geo-alt-fill"></i> Côte d'ivoire,<br>Abidjan-Koumassi</a>
-          <a class="list-group-item list-group-item-action" href="about-start-up.html"><i class="bi bi-telephone-fill"></i> 225 01 02 20 52 11</a>
-          <a class="list-group-item list-group-item-action" href="services-agency.html"><i class="bi bi-envelope-fill"></i> infos@citl.com</a>
+          <a class="list-group-item list-group-item-action" href="about-start-up.html"><i class="bi bi-telephone-fill"></i> 225 07 07 57 21 94</a>
+          <a class="list-group-item list-group-item-action" href="services-agency.html"><i class="bi bi-envelope-fill"></i> info@citl.ci</a>
         </div>
         <!-- End List Group -->
       </div>

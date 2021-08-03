@@ -20,7 +20,7 @@
       <div class="row">
         <div class="form-group col-6">
           <label class="h6 small d-block text-uppercase" for="exampleFormControlSelect1">
-            Quelle opération souhaiter vous effectuer ?
+            Quelle opération souhaiteriez-vous effectuer ?
           </label>
           <select class="form-control" id="exampleFormControlSelect1" name="operation" required>
             <option></option>

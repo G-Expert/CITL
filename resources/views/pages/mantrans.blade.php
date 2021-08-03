@@ -16,7 +16,7 @@
            <div class="mb-4">
              <h1 class="display-4 font-size-48--md-down text-white">Manutention</h1>
              <p class="lead text-white">
-               Présentes dans les ports Autonomes d'Abidjan et de San-Pedro, CITL s'assume de l'acheminement dans vos entrepôts depuis les frais de dédouanement par un personnel assurant un travail à la chaîne.
+               Présentes dans les ports Autonomes d'Abidjan et de San-Pedro, CITL s'assume de l'acheminement dans vos entrepôts depuis les quais de dédouanement par un personnel assurant un travail à la chaîne.
              </p>
            </div>
            <a class="btn  btn-wide" href="devis" style="background-color:#00a0e1;">Demande de devis</a>
@@ -33,7 +33,7 @@
          <div class="w-md-80 w-lg-60">
            <div class="mb-4">
              <h2 class="display-4 font-size-48--md-down text-white">Transit</h2>
-             <p class="lead text-white">Notre partenariat avec plusieurs Compagnies Maritime présents dans les ports africains et européens nous permet de proposer à nos clients une prestation complète adaptée à leur besoins du coventionnel au conteneur complet ou groupage</p>
+             <p class="lead text-white">Notre partenariat avec plusieurs Compagnies Maritime présents dans les ports africains et européens nous permet de proposer à nos clients une prestation complète adaptée à leurs besoins du conventionnel au conteneur complet ou groupage</p>
            </div>
            <a class="btn  btn-wide" href="devis" style="background-color:#00a0e1;">Demande de devis</a>
          </div>

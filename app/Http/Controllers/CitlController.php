@@ -48,7 +48,7 @@ public function count()
 //Lecture des exportation du client
 public function expPCl(Request $request)
 {
-  return view('expPCl');
+  return view('expPcl');
 }
 //Lecture des exportations livrées
 public function expPClv(Request $request)
@@ -86,6 +86,14 @@ public function impClPv(Request $request)
      $data = ['type'=>$type,'nature'=>$nature,'conteneur'=>$conteneur,'pays'=>$pays,'poids'=>$poids,'voie'=>$voie,'arrive'=>$arrive,'tel'=>$tel,'mail'=>$mail,'nom'=>$nom,'code'=>$code];
      // dd($data);
      $res = addDevis($type,$nature,$conteneur,$pays,$poids,$voie,$arrive,$tel,$mail,$nom,$code);
+     ini_set( 'display_errors', 1);
+     //errot_reporting( E_ALL );
+     $from = "info@citl.ci";
+     $to ="citlogistics2000@gmail.com";
+     $subject = "Demande devis";
+     $message = "Une demande de devis vient d'être effectuer sur votre site www.citl.ci/devis_demande";
+     $headers = "From:" . $from;
+     mail($to,$subject,$message, $headers);
      $alert = $nom;
      return view('devis')->with('alert',$alert);
   }

@@ -83,7 +83,7 @@
 
             <li class="media align-items-center pb-2">
               <div class="media-body">
-                <h3 class="h6 mb-0"><i class="bi bi-geo-alt-fill"></i> Vietname</h3>
+                <h3 class="h6 mb-0"><i class="bi bi-geo-alt-fill"></i> Vietnam</h3>
               </div>
             </li>
           </ul>

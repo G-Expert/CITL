@@ -95,6 +95,13 @@
                    </li>
                    <!-- Nav item -->
                    <li class="nav-item ">
+                       <a class="nav-link " href="https://webmail.citl.ci/">
+                           <i class="nav-icon fe fe-git-pull-request mr-2"></i>Mail Pro
+                       </a>
+                   </li>
+
+                   <!-- Nav item -->
+                   <li class="nav-item ">
                        <a class="nav-link " href="unite_sms">
                            <i class="nav-icon fe fe-git-pull-request mr-2"></i>Unité SMS
                        </a>
